@@ -1,0 +1,126 @@
+
+body {
+    /*background-image: url("http://sfwallpaper.com/images/high-resolution-nature-wallpaper-25.jpg");*/
+    background-color: gray;
+}
+
+h1 {
+    color:green;
+    font-size: 50px;
+    padding: 100px
+}
+p{
+    color:red;
+    font-family:Calibri;
+    border: 1px solid black;
+    margin: 20px;
+    /*background-image: url("http://sfwallpaper.com/images/high-resolution-nature-wallpaper-25.jpg");*/
+}
+
+#id3heading {
+    color: blueviolet;
+}
+
+h4.error{
+    font-size: 25px;
+    color: white;
+}
+
+#hyperlink {
+    color: brown;
+    font-style: italic;
+    font-size: 35px;
+}
+/*a:link {*/
+/*    color: green;*/
+/*    background-color: transparent;*/
+/*    text-decoration: none;*/
+/*}*/
+
+/*a:visited {*/
+/*    color: pink;*/
+/*    background-color: transparent;*/
+/*    text-decoration: none;*/
+/*}*/
+
+/*a:hover {*/
+/*    color: red;*/
+/*    background-color: transparent;*/
+/*    text-decoration: underline;*/
+/*}*/
+
+/*a:active {*/
+/*    color: yellow;*/
+/*    background-color: transparent;*/
+/*    text-decoration: underline;*/
+/*}*/
+
+#link {
+    color:red;
+    font-size:20px;
+}
+#jump:link,#jump:visited {
+    font-size:30px;
+    color: white;
+    padding: 15px 25px;
+    background-color: #f44336;
+    text-align: center;
+    display: inline-block;
+}
+#jump:hover, #jump:active {
+    background-color: red;
+}
+
+#image{
+    color: #294aa5;
+    padding: 10px;
+    font-style: italic;
+}
+
+#obrazek {
+    float: left;
+    width: auto;
+    height: auto;
+}
+
+#map {
+    width: auto;
+    height: auto;
+}
+
+#workplace {
+    padding: 15px 25px;
+}
+
+#spis {
+    text-align: center;
+    font-size: 35px;
+    font-family: Algerian;
+}
+
+table,th,td {
+    border: 2px solid white;
+    color: black;
+}
+
+#horizontal-menu {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    background-color: black;
+    overflow: hidden;
+
+}
+.lista {
+    float: left;
+}
+.lista .test {
+    display:block;
+    color:white;
+    padding:16px;
+    text-align: center;
+    text-decoration: none;
+}
+.lista .test:hover {
+    background-color: gray;
+}

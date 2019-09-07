@@ -1,0 +1,31 @@
+body {
+    background-color: powderblue;
+}
+
+h1{
+    font-size: 45px;
+    color: red;
+    font-family: Algerian;
+}
+
+p {
+    color: blue;
+    font-size: 23px;
+}
+
+blockquote {
+    color: darkblue;
+    font-size: 20px;
+}
+
+#powrot:link,#powrot:visited {
+    padding: 10px 10px;
+    background-color: #f44336;
+    display: inline-block;
+    text-align: center;
+    color: white;
+}
+
+#powrot:hover,#powrot:active{
+    background-color: red;
+}

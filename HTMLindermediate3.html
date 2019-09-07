@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercise with Login system</title>
+    <link rel="Stylesheet" type="text/css" href="CSSbeginner1.css">
+</head>
+<body>
+<h1>Register</h1>
+<form action="">
+    <label for="First Name">First Name:</label>
+    <input type="text" id="First Name" placeholder="John" name="First" required>
+    <label for="Last Name"></label>
+    <input type="text" id="Last Name" PLACEHOLDER="Smith" name="Last" required>
+
+    <div>
+        <label for="Male">Male</label>
+        <input type="radio" name="Gender" id="Male">
+        <label for="Female"> Female</label>
+        <input type="radio" name="Gender" id="Female">
+        <label for="Other">Other</label>
+        <input type="radio" name="Gender" id="Other"><br>
+    </div>
+
+
+    <div>
+        <label for="Email">Email:</label>
+        <input placeholder="your Email" required type="email" name="Email" id="Email" name="Email">
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" pattern=".{5,10}" required title="kozakkozakozkaozkakozkao"><br>
+    </div>
+
+
+    <div>
+        <label>Birthday:</label>
+        <select name="year" id="born">
+            <option value="none">year</option>
+            <option value="2015">2015</option>
+            <option value="2014">2014</option>
+        </select>
+        <select name="year" id="">
+            <option value="none">month</option>
+            <option value="July">July</option>
+            <option value="September">September</option>
+        </select>
+        <select name="year" id="">
+            <option value="none">day</option>
+            <option value="13">13</option>
+            <option value="09">9</option>
+        </select>
+    </div>
+
+    <div>
+        <label for="checkbox">I agree with the terms and conditions.</label>
+        <input type="checkbox" id="checkbox">
+    </div>
+
+    <input type="submit">
+</form>
+</body>
+</html>

@@ -1,0 +1,21 @@
+/*li {*/
+/*    border-color: red;*/
+/*    border-style: double;*/
+/*}*/
+
+/*.completed {*/
+/*    text-decoration: line-through;*/
+/*}*/
+
+/*#orange{*/
+/*    background:orange;*/
+/*}*/
+
+* {
+    border: 1px solid lightblue;
+}
+
+input[type="checkbox"] {
+    background: red;
+    color: red;
+}

@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Kozackastrona</title>
+        <link rel="Stylesheet" href="begginingstyle.css">
+    </head>
+
+
+    <body>
+        <h2 id="spis">SPIS TREŚCI</h2>
+            <ol>
+                <li><a href="#horizontal-menu">PRZYCISKI</a></li>
+            </ol>
+        <h1 id="top">HEADING OF PARAGRAPHS</h1>
+            <p style="color:#fb0cff">kolorowy paragraph</p>
+            <p title="TITLE OF PARAGRAPH"> paragraph under title</p>
+            <p> paragraph3</p>
+            <p>This is a <br> paragraph with a line break.</p> <!-- "b" to przerwanie lini i daniie jej pod spod -->
+        <h2>HEADING OF LINKS</h2>
+            <a href="https://www.google.pl">This is a link</a> <!--   odnosnik w "a" po atrybucie href-->
+        <h3 id="id3heading">HEADING OF IMAGES</h3>
+            <img src="tab_unravel.png" alt="GUITAR TAB FOR UNRAVEL" width="900" height="1000"> <!--   src to sciezka do obrazka
+        alt to nazwa w dymku, jak sie najedzie lol || width szerokosc obrazka, height wysokosc obrazka-->
+        <h4 class="error">HEADING OF BUTTONS</h4>
+            <button> DO NOT PRESS </button>
+        <hr> <!-- taka ładna linia co robi przerwe w stronie -->
+            <h5 style="color: #edf4ff">HEADING OF LISTS</h5>
+                <ul> <!-- Lista punktowa -->
+                    <li style="font-family:Calibri;font-size: 300%;">czcionka</li>
+                    <li style="font-size: 400%">wielkość czcionki</li>
+                    <li style="text-align: center;font-size: 150%">polozenie textu</li>
+                </ul>
+        <hr>
+                <ol> <!-- Lista cyfrowa -->
+                    <li><b>pogrubiony text</b></li>
+                    <li><strong>wazny pogrubiony text</strong></li>
+                    <li><i>pochylony text</i></li>
+                    <li><em>wazny pochylony text</em></li>
+                    <li><small> mały text</small></li>
+                    <li><mark>zaznaczony kolorem text</mark></li>
+                    <li><del>skreslony text</del></li>
+                    <li><ins>podkreslony text</ins></li>
+                    <li><sub>index dolny</sub></li>
+                    <li><sup>index gorny</sup></li>
+                </ol>
+        <hr>
+
+            <h6 style="font-size: 30px;">HEADING WITH CHANGED SIZE</h6>
+                <pre style="color:#ff0200">
+                    <q>FUNKCJA PRE
+
+                    ZWRACA UWAGE NA PRZERWY
+
+                    I ZNAKI BIALE
+
+                    W PRZECIWIENSTWIE DO ZWYKLEGO PARAGRAPHU</q>
+
+                </pre>
+        <hr>
+            <h3>CYTOWANIE ŹRÓDŁOWE</h3>
+
+                <blockquote cite="https://pl.wikipedia.org/wiki/Tekst">
+                            tekst w teorii literatury – wypowiedź stanowiąca zamkniętą całość z punktu widzenia treści, często utrwalona graficznie.</blockquote>
+                <p style="background-color: tomato"> to <abbr title="wyskakujacy dymek to jest">JEST</abbr> informacja o tym skrocie</p>
+                <address style="border: 2px solid red;">
+                    używane do wspominania<br>
+                    o autorze, zazwyczaj jest<br>
+                    przedstawiane po skosie lol
+                </address>
+                <p><cite>Tytul czegos</cite> jest zazwyczaj przedstawiany w cite i jest po skosie lol</p>
+                <bdo dir="rtl">ten text jest napisany od prawej do lewej XD</bdo>
+        <hr>
+            <h2 id="hyperlink"> HYPER LINKS</h2>
+                <a href="https://google.com/"> VISIT THIS SITE</a> <br>
+                <a id="kozak"; href="tab_unravel.png" >HTML images</a>
+                <p id="link">this will open a link in a new window :)</p>
+                    <a href="https://google.com/" target="_blank"> VISIT THIS SITE IN A NEW WINDOW</a><br>
+                    <a href="https://google.com/" target="_top"> nie wiem co to robi</a><br>
+                    <a href="https://google.com/" target="_blank">
+                        <img src="source.gif" alt="HTML tutorial" style="width:auto;height:auto;border:0;">
+                    </a><br>
+                <a id="jump" href="#top">JUMP TO THE TOP OF THE PAGE</a>
+        <hr>
+            <h2 id="image"> IMAGES</h2>
+                <img id="obrazek" src="https://images.pexels.com/photos/414612/pexels-photo-414612.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="kozak obrazek">
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <hr>
+            <h2 id="map"> CLICKABLE MAPS </h2>
+                <img id="workplace" src="workplace.jpg" alt="Workplace" usemap="#workmap">
+
+                <map name="workmap">
+                    <area shape="rect" coords="58,54,300,370" alt="Computer" href="computer.html">
+                    <area shape="rect" coords="315,188,358,263" alt="Phone" href="phone.html">
+                    <area shape="circle" coords="362,314,44" alt="Coffee" href="coffee.html">
+                </map>
+        <hr>
+            <h2>TABLES</h2>
+                <table>
+                    <tr>
+                        <th>Firstname</th>
+                        <th>Lastname</th>
+                        <th>Age</th>
+                    </tr>
+                    <tr>
+                        <td>Papryk</td>
+                        <td>Mielonka</td>
+                        <td>21</td>
+                    </tr>
+                    <tr>
+                        <td>Gitara</td>
+                        <td>Siema</td>
+                        <td>5</td>
+                    </tr>
+                </table>
+        <hr>
+            <h2>LISTS</h2>
+                <ul style="list-style-type: disc;">
+                    <li>  first item  </li>
+                    <li>  Second item  </li>
+                    <li>  Third item  </li>
+                </ul>
+                <ul style="list-style-type: circle;">
+                    <li>  first item  </li>
+                    <li>  Second item  </li>
+                    <li>  Third item  </li>
+                </ul>
+                <ul style="list-style-type: square;">
+                    <li>  first item  </li>
+                    <li>  Second item  </li>
+                    <li>  Third item  </li>
+                </ul>
+                <ul style="list-style-type: none;">
+                    <li>  first item  </li>
+                    <li>  Second item  </li>
+                    <li>  Third item  </li>
+                </ul>
+                <ol type="1">
+                    <li>  first item  </li>
+                    <li>  Second item  </li>
+                    <li>  Third item  </li>
+                </ol>
+                <ol type="A">
+                    <li>  first item  </li>
+                    <li>  Second item  </li>
+                    <li>  Third item  </li>
+                </ol>
+                <ol type="a">
+                    <li>  first item  </li>
+                    <li>  Second item  </li>
+                    <li>  Third item  </li>
+                </ol>
+                <ol type="I">
+                    <li>  first item  </li>
+                    <li>  Second item  </li>
+                    <li>  Third item  </li>
+                </ol>
+                <ol type="i">
+                    <li>  first item  </li>
+                    <li>  Second item  </li>
+                    <li>  Third item  </li>
+                </ol>
+                <ol start="50">
+                    <li>kozak 50</li>
+                    <li>kozak 51</li>
+                    <li>kozak 52</li>
+                </ol>
+                <ul style="list-style-type: disc;">
+                    <li>  first item  </li>
+                    <li>  Second item  </li>
+                        <ul style="list-style-type: circle;">
+                            <li>second and 1/3</li>
+                            <li>second and 2/3</li>
+                        </ul>
+                    <li>  Third item  </li>
+                </ul>
+
+    <ul id="horizontal-menu">
+        <li class="lista"><a class="test" href="#spis">SPIS</a></li>
+        <li class="lista"><a class="test" href="#hyperlink">HYPERLINK</a></li>
+        <li class="lista"><a class="test" href="#link">LINK</a></li>
+        <li class="lista"><a class="test" href="#image">IMAGE</a></li>
+    </ul>
+
+    </body>
+</html>
