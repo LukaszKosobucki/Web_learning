@@ -1,0 +1,20 @@
+.correct {
+    color:green;
+}
+.wrong {
+    color: red;
+    background-color: pink;
+}
+.done {
+    color: gray;
+    text-decoration: line-through;
+}
+
+.kozak {
+    width: 220px;
+    height: 100px;
+    float: left;
+    background-color: #004f78;
+    margin: 1%;
+    text-align: center;
+}
