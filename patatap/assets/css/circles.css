@@ -1,0 +1,50 @@
+canvas {
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    float:right;
+}
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+button {
+    height: 100%;
+    width: 14.286%;
+    border: none;
+    color: gray;
+    background-color: #000000;
+    text-transform: uppercase;
+    font-weight: 700;
+    outline: none;
+    transition: all .4s;
+    text-align: center;
+}
+div#buttons {
+    height: 3%;
+    transition: .3s;
+}
+div#sound {
+    float:left;
+    width: 2%;
+    margin: 0;
+    background-color: #000000 ;
+    height: 100%;
+}
+input {
+    height: 200px;
+    width: 20px;
+    -webkit-appearance: slider-vertical;
+    border: none;
+    outline: none;
+}
+
+div.container {
+    float: left;
+    height: 97%;
+    width: 98%;
+    margin: 0;
+}
+
+
